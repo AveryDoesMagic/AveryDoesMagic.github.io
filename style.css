@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+  background-color: #21233d;
+  color: white;
+}
+
+footer body {
+  font-family: 'Delius Unicase', sans-serif;
+  background-color: #2a2d4d;
+  color: white
+}
