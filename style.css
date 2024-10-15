@@ -25,3 +25,7 @@ footer body {
 .discord-guild-example:hover {
   border-radius: 20px'
 }
+
+.transparent {
+  background-color: transparent
+}
