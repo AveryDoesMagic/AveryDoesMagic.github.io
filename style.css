@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
+hi {
+  font-family: 'Delus Unicase', sans-serif;
+}
+
 body {
   background-color: #21233d;
   color: white;
