@@ -20,5 +20,8 @@ footer body {
 
 .discord-guild-example {
   border-radius: 200px;
-  border-radius: 20px;
+}
+
+.discord-guild-example:hover {
+  border-radius: 20px'
 }
