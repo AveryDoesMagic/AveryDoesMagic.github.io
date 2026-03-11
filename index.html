@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IGR | The Internet's Game Reviewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IGR — honest and thoughtful game reviews since 2003. Discover the best games worth your time.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="topnav" aria-label="Main navigation">
+      <div class="topnav-links">
+        <a class="active" href="index.html">home</a>
+        <a href="reviews.html">reviews</a>
+        <a href="genres.html">genres</a>
+        <a href="top-games.html">top games</a>
+        <a href="about.html">about</a>
+      </div>
+      <button id="themeToggle" type="button" aria-label="Toggle color theme">
+        <span id="themeToggle-icon">☀️</span>
+        <span id="themeToggle-label">Light</span>
+      </button>
+    </nav>
+  </header>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>igr</h1>
+      <p>the internet's game reviewer</p>
+      <p class="hero-tagline">honest game reviews since 2003</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section aria-labelledby="featured-heading">
+      <h2 id="featured-heading">featured review</h2>
+
+      <div class="featured">
+        <img src="https://dummyimage.com/800x400/333/ffffff&text=elden+ring"
+             alt="Key art for Elden Ring, a dark fantasy action RPG">
+
+        <div class="featured-info">
+          <h2>elden ring</h2>
+
+          <p>
+            fromsoftware expands its legendary formula into a massive open world
+            filled with danger, discovery, and unforgettable boss battles
+          </p>
+
+          <p class="score">9.5 / 10</p>
+
+          <a class="button" href="review-elden.html">read full review</a>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="latest-heading">
+      <h2 id="latest-heading">latest reviews</h2>
+
+      <div class="card-grid">
+
+        <article class="card">
+          <img src="https://dummyimage.com/400x200/555/fff&text=hollow+knight"
+               alt="Hollow Knight key art featuring the knight in a dark cavern">
+          <h3>hollow knight</h3>
+          <p>
+            a beautifully crafted metroidvania with challenging combat
+            and a haunting underground world
+          </p>
+          <span class="score">9 / 10</span>
+        </article>
+
+        <article class="card">
+          <img src="https://dummyimage.com/400x200/444/fff&text=stardew+valley"
+               alt="Stardew Valley farm scene with crops and a cozy house">
+          <h3>stardew valley</h3>
+          <p>
+            a relaxing farming simulator that quietly becomes a
+            200-hour life-consuming masterpiece
+          </p>
+          <span class="score">9 / 10</span>
+        </article>
+
+        <article class="card">
+          <img src="https://dummyimage.com/400x200/333/fff&text=celeste"
+               alt="Celeste artwork showing Madeline climbing a mountain">
+          <h3>celeste</h3>
+          <p>
+            precision platforming paired with heartfelt storytelling
+            and outstanding level design
+          </p>
+          <span class="score">10 / 10</span>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© igr 2003–2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
